@@ -15,3 +15,9 @@ main:
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
+
+docs:  
+  - title: BOJ단계별로풀기
+    url: /docs/_posts/BOJ-step/
+
+ 

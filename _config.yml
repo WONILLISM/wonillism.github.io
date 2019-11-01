@@ -288,11 +288,13 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: true
+      author_profile: false
       read_time: true
       comments: true # true
       share: true
       related: true
+      sidebar:
+        nav: "docs"
 
   # _pages
   - scope:
@@ -304,4 +306,12 @@ defaults:
       read_time: false
       comments: false
       share: true
-      related: false
+      related: false  
+
+  # _docs
+  - scope:
+      path: ""
+      type: docs
+    values:
+      sidebar:
+        nav: "docs"
