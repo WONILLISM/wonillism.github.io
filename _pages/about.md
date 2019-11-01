@@ -4,5 +4,5 @@ permalink: /about/
 layout: single
 ---
 
-## WONILLISM's blog
+## WONILLISM.github.io 블로그
 
