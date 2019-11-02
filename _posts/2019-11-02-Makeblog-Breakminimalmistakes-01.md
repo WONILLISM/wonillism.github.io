@@ -13,10 +13,9 @@ tags:
     - jekyll theme
     - 지킬 테마
     - minimal-mistakes  
-    - github blog
-last_modified_at: 2019-09-27
+last_modified_at: 2019-11-02
 ---
-![](assets/../../assets/Make_Blog/2019-11-02-Makeblog-Breakminimalmistakes-01-img01.jpg)  
+![](/assets/Make_Blog/2019-11-02-Makeblog-Breakminimalmistakes-01-img01.jpg)  
 깃헙 블로그를 좀 더 내 입맛에 맞게, 좀 더 블로그 답게 꾸미고 싶었다. 그동안의 포스팅도 포기하며... 계속해서 구글링을하고 다른 블로그로 갈아탈까 고민하고..  
 애초에 내가 html/css를 공부를 했으면 이런 시행착오도 덜 했을 것이다. 아니면 영어를 잘하던가...  
 하지만 이왕 깃헙 블로그를 시작했으니 끝을 보자는 생각으로 포스팅을 시작한다.  
