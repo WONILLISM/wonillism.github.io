@@ -286,13 +286,12 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: false
+      author_profile: true
       read_time: true
       comments: true # true
       share: true
       related: true
-      sidebar:
-        nav: "docs"
+
 
   # _pages
   - scope:
