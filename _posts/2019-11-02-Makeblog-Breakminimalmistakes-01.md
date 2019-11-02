@@ -12,7 +12,8 @@ tags:
     - 깃헙 블로그
     - jekyll theme
     - 지킬 테마
-    - minimal-mistakes
+    - minimal-mistakes  
+    - github blog
 last_modified_at: 2019-09-27
 ---
 ![](assets/../../assets/Make_Blog/2019-11-02-Makeblog-Breakminimalmistakes-01-img01.jpg)  
