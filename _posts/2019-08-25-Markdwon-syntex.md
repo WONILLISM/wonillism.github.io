@@ -3,7 +3,7 @@ title: "[Markdown] 기본 문법 정리"
 excerpt: "마크다운 기본 문법을 정리해보자."
 
 categories:
-    - Making_Blog
+    - Make_Blog
 tags:
     - Markdown 
     - Blog
