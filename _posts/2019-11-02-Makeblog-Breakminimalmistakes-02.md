@@ -46,3 +46,110 @@ masthead_title           : # overrides the website title displayed in the masthe
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 ```  
+  
+__사이트 저자 소개__  
+  
+```yml  
+# Site Author
+author:
+  name             : "Park Won Il"
+  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "늦깎이 개발자 지망생"
+  location         : "South Korea"
+  email            :
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: wonillism@gmail.com
+    #- label: "Website"
+    #  icon: "fas fa-fw fa-link"
+      # url: "https://your-website.com"
+    #- label: "Twitter"
+    #  icon: "fab fa-fw fa-twitter-square"
+      # url: "https://twitter.com/"
+    #- label: "Facebook"
+    #  icon: "fab fa-fw fa-facebook-square"
+      # url: "https://facebook.com/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/WONILLISM/WONILLISM.github.io"
+    #- label: "Instagram"
+    #  icon: "fab fa-fw fa-instagram"
+      # url: "https://instagram.com/"
+
+```  
+사이트 좌측에 기본적으로 사이트 저자 소개 항목이 존재한다. 이 부분을 원하지 않는다면 간단한 설정으로 안보이게할 수 있다.  
+나는 상단에 있는 메뉴바를 이 사이트 저자 소개 부분으로 옮기고 싶은데 방법을 모르겠다. 사실 이거하려고 이 포스팅을 하고 있기도 하다...  
+  
+__사이트 Footer__  
+사이트 맨 아래 부분에 표시되는 영역의 설정을 의미한다. 나는 깃허브 주소만 올려놓았다.  
+  
+
+```yml  
+# Site Footer
+footer:
+  links:
+    #- label: "Twitter"
+    #  icon: "fab fa-fw fa-twitter-square"
+      # url:
+    #- label: "Facebook"
+    #  icon: "fab fa-fw fa-facebook-square"
+      # url:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: https://github.com/wonillism/wonillism.github.io
+      # url:
+    #- label: "GitLab"
+    #  icon: "fab fa-fw fa-gitlab"
+      # url:
+    #- label: "Bitbucket"
+    #  icon: "fab fa-fw fa-bitbucket"
+      # url:
+    #- label: "Instagram"
+    #  icon: "fab fa-fw fa-instagram"
+      # url:
+```  
+  
+__블로그 표시 방법 설정__  
+초기 블로그 표시방법 설정 부분이다.  
+```yml
+# Outputting
+permalink: /:categories/:title/
+paginate: 5 # 한 번에 보여지는 포스트 수
+paginate_path: /page:num/
+timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+```  
+  
+__기본 page 설정__  
+post를 별도의 페이지로 설정해놨지만, 보여지는 페이지에 대한 기본 설정을 하는 부분이다.    
+  
+  
+```yml
+# Defaults
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true # true
+      share: true
+      related: true
+
+
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+      read_time: false
+      comments: false
+      share: true
+      related: false  
+
+```
