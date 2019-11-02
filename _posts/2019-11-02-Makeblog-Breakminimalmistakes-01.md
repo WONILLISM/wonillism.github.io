@@ -31,7 +31,9 @@ __minimal-mistakes__ 는 [Michael Rose](https://mmistakes.github.io/minimal-mist
  + <https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/>  
  + https://devinlife.com/howto/
 
-## 구조  
+  
+## minimal-mistakes 구조
+
 ```  
 inimal-mistakes
 ├── _data                      # data files for customizing the theme
@@ -78,11 +80,5 @@ inimal-mistakes
 ├── index.html                 # paginated home page showing recent posts
 └── package.json               # NPM build scripts
 ```  
-위와 같은 구성인데 아무리 봐도 잘 모르겠다.  
-  
-## 구성  
-jekyll의 기본 구성을 설정할 수 있는 `_config.yml`파일은 전체 사이트에 영향을 준다.  
-`_config.yml`파일 안에 이 테마의 개발자가 친절하게 주석을 달아놨다.  
-사이트 세팅, SNS주소 설정, 구굴 애널리틱스 설정, 왼쪽에 표시될 블로그 주인에 대한 설명 설정 등등 기본적으로 세팅할 수 있도록 해놓았다.   
-  
-[![](/assets/Make_Blog/2019-11-02-Makeblog-Breakminimalmistakes-01-img02.jpg)](/assets/Make_Blog/2019-11-02-Makeblog-Breakminimalmistakes-01-img02.jpg)
+꽤나 복잡하다. 분명 내가 커스터마이징하는데 불필요한 부분이 있을 것이다. 필요한부분만 골라서 알아보자.  
+
