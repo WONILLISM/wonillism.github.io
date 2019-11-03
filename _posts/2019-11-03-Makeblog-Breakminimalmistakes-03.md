@@ -84,3 +84,17 @@ author_profile: true
 ---  
 ```  
 tag 별로 보여주기 위한 페이지  
+  
+`header`는 페이지 상단에 노출될 이미지 같은 것들을 의미한다. 
+자세한 설명은 [`minimal-mistakes Guide`](https://mmistakes.github.io/minimal-mistakes/docs/layouts/)에서 확인하자.  
+main페이지에도 `about`페이지와 같은 사진을 올려놓았는데 블로그 최상위 디렉토리에 있는 `index.html`의 yaml 머릿말을 수정해주었다.  
+```html
+---
+layout: home
+author_profile: true  
+header:
+  overlay_image: /assets/Images/main-teaser.jpg
+  overlay_filter: 0.5
+---
+
+```
