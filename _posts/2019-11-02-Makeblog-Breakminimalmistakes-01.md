@@ -29,7 +29,7 @@ __minimal-mistakes__ 는 [Michael Rose](https://mmistakes.github.io/minimal-mist
 
 참고 :
  + <https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/>  
- + https://devinlife.com/howto/
+ + <https://devinlife.com/howto/>
 
   
 ## minimal-mistakes 구조
