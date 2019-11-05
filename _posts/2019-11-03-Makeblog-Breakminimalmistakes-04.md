@@ -39,7 +39,9 @@ main:
 상단의 메뉴는 메인 메뉴로 `main`이라고 정의되어있다. 그 아래 만들어줄 링크의 이름과 `url`을 설정해주면되는데 이 `url`은 이전 포스트에서 만든 page yaml 머릿말에 정의해 준 permalink에 입력했던 이름을 쓰면된다.  
 
   
-처음 이 <minimal-mistakes 뿌시기> 포스팅을 하게된 이유가 메뉴바의 위치와 방식을 바꾸고싶어서였다. 이 `navigation.yml`부분을 좀 건드리면 될 것 같다고 생각했었는데 __Guide__ 에도 원하는 방식으로 나와있지 않고 구글링을해도 안나온다.. 그래서 minimal-mistakes 개발자의 깃허브에 가서 `issue`로 질문을 남겨놓았다. 돌아오는 답변은................  
+처음 이 <minimal-mistakes 뿌시기> 포스팅을 하게된 이유가 메뉴바의 위치와 방식을 바꾸고싶어서였다. 이 `navigation.yml`부분을 좀 건드리면 될 것 같다고 생각했었는데 __Guide__ 에도 원하는 방식으로 나와있지 않고 구글링을해도 안나온다.. 그래서 minimal-mistakes 개발자의 깃허브에 가서 `issue`로 질문을 남겨놓았다. 돌아오는 답변은................    
+  
+  
 [![img1](/assets/Make_Blog/2019-11-03-Makeblog-Breakminimalmistakes-04-img01.jpg)](/assets/Make_Blog/2019-11-03-Makeblog-Breakminimalmistakes-04-img01.jpg)  
   
 css와 javascript를 작성하여 바꿔야한답니다... 앞으로 공부해야할게 하나 더 생겼다.
