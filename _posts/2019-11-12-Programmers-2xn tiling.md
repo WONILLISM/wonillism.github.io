@@ -13,6 +13,7 @@ tags:
     - 동적프로그래밍
     - memoization
     - 메모이제이션  
+use_math: true
 last_modified_at: 2019-11-12
 ---  
 프로그래머스 문제도 정복해보자. 프로그래머스 코딩테스트연습에 있는 문제들 중 lv3~lv5까지의 문제만 쭈욱 풀어보기로 했다.  
@@ -39,10 +40,10 @@ last_modified_at: 2019-11-12
 [![](/assets/Programmers/2019-11-12-Programmers-2xn-tiling-img04.png)](/assets/Programmers/2019-11-12-Programmers-2xn-tiling-img04.png)  
 `N = 10`이라면 결국 마지막에 채울 블럭의 방법은 아래 두가지 방법밖에 없다. 따라서 위의 경우에는 `N=9`일 때의 경우의 수와 동일하고, 아래의 경우에는 `N=8`일 때의 경우의 수와 동일하다. 이런 규칙을 통해서 점화식을 세우면
 아래와 같다.  
+
 $f(10) = f(9) + f(8)$  
 $because$  
-$f(N) = f(N-1) + f(N-2)$  
-  
+$f(N) = f(N-1) + f(N-2)$ 
 이 과정을 재귀함수를 이용하여 `memoization`하게 되면   
 $f(1) = 1, f(2) = 2$ 를 미리 `dp[1] = 1, dp[2] = 2`라고 저장시켜 둔 후 `n=3`일 때부터 위의 규칙을 이어 나가면 이 문제를 해결할 수 있다.  
   
