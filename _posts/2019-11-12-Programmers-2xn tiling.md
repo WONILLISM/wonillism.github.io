@@ -25,19 +25,18 @@ last_modified_at: 2019-11-12
   
 ## 문제
 예전에 `DP(다이나믹프로그래밍`를 살짝 공부하면서 풀어봤던 문제이다. 이 문제를 통해서 `memoization`이 뭔지 알게됐다. 나중에 `DP(다이나믹프로그래밍`에 대해 포스팅을 해야겠다.  
-
-[![](/assets/Programmers/2019-11-12-Programmers-2xn타일링-img01.png)](/assets/Programmers/2019-11-12-Programmers-2xn타일링-img01.png)  
+[![](/assets/Programmers/2019-11-12-Programmers-2xn-tiling-img01.png)](/assets/Programmers/2019-11-12-Programmers-2xn-tiling-img01.png)  
   
 ## 문제 풀이  
-[![](/assets/Programmers/2019-11-12-Programmers-2xn타일링-img02.png)](/assets/Programmers/2019-11-12-Programmers-2xn타일링-img02.png)  
+[![](/assets/Programmers/2019-11-12-Programmers-2xn-tiling-img02.png)](/assets/Programmers/2019-11-12-Programmers-2xn-tiling-img02.png)
   
 위 그림과 같이 `(1 x 2)` 나 `(2 x 1)`의 타일로 `2 x n`을 채울 수 있는 모든 방법의 수를 구하는 문제이다. `DP`라는 개념을 전혀 모를 때 처음 문제를 접했을 때는 엄청 답답했다. 엄청나게 많을건데 이걸 어떻게 구하지? 너무 막막했다.  
 `DP(다이나믹 프로그래밍)`은 간단히 말하면 __큰 문제__ 를 __작은 문제__ 로 나누어 해결하는 방법이다. 결국 규칙을 찾아 해결하는 문제이다.  
   
-[![](/assets/Programmers/2019-11-12-Programmers-2xn타일링-img03.png)](/assets/Programmers/2019-11-12-Programmers-2xn타일링-img03.png)  
+[![](/assets/Programmers/2019-11-12-Programmers-2xn-tiling-img03.png)](/assets/Programmers/2019-11-12-Programmers-2xn-tiling-img03.png)   
 길이가 2일 때 블럭을 채우는 방법은 위 그림과 같다. 잘 생각해보면 이 막대를 채울 때 방법이 2가지밖에 없다. 무슨말이냐면 `(2 x 1)` 를 1개 채우는 방법과, `(1 x 2)`를 2개 채우는 방법 2가지 밖에 없다. 이 2가지 방법을 길이 `n`에 맞게 조합하여 세우는 방법의 수가 결국 이 문제의 답이 된다.  
 다음의 예를 보자.  
-[![](/assets/Programmers/2019-11-12-Programmers-2xn타일링-img04.png)](/assets/Programmers/2019-11-12-Programmers-2xn타일링-img04.png)  
+[![](/assets/Programmers/2019-11-12-Programmers-2xn-tiling-img04.png)](/assets/Programmers/2019-11-12-Programmers-2xn-tiling-img04.png)  
 `N = 10`이라면 결국 마지막에 채울 블럭의 방법은 아래 두가지 방법밖에 없다. 따라서 위의 경우에는 `N=9`일 때의 경우의 수와 동일하고, 아래의 경우에는 `N=8`일 때의 경우의 수와 동일하다. 이런 규칙을 통해서 점화식을 세우면
 아래와 같다.  
 $f(10) = f(9) + f(8)$  
