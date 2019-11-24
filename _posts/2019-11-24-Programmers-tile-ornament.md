@@ -19,12 +19,12 @@ last_modified_at: 2019-11-24
 # [(lv3) 타일 장식물](https://programmers.co.kr/learn/courses/30/lessons/43104)   
 
 ## 문제
-[![](/assets/Programmers/2019-11-24-Programmers-ornaments-img01.png)](/assets/Programmers/2019-11-24-Programmers-ornaments-img01.png)  
+[![](/assets/Programmers/2019-11-24-Programmers-ornaments-img01.jpg)](/assets/Programmers/2019-11-24-Programmers-ornaments-img01.jpg)  
 원리 자체는 `2xn타일링`문제와 동일하다. 
   
 ## 문제 풀이  
 첫 번째와 두 번째를 제외하고 한 변의 길이가 일정한 규칙을 가지며 증가하고 있다.   
-[![](/assets/Programmers/2019-11-24-Programmers-ornaments-img02.png)](/assets/Programmers/2019-11-24-Programmers-ornaments-img02.png)  
+[![](/assets/Programmers/2019-11-24-Programmers-ornaments-img02.jpg)](/assets/Programmers/2019-11-24-Programmers-ornaments-img02.jpg)  
   
 위 그림과 같이 $f(1)$과 $f(2)$를 제외하고 $f(3)$부터 이전의 사각형의 둘레에 그 이전의 사각형의 둘레만큼 더하는 규칙을 찾을 수 있다.  
 따라서 점화식으로 표현하면  

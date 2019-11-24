@@ -21,13 +21,13 @@ last_modified_at: 2019-11-24
 # [(lv3) 자물쇠와 열쇠](https://programmers.co.kr/learn/courses/30/lessons/60059)   
 
 ## 문제
-[![](/assets/Programmers/2019-11-24-Programmers-lock-and-key-img01.png)](/assets/Programmers/2019-11-24-Programmers-lock-and-key-img01.png)  
-[![](/assets/Programmers/2019-11-24-Programmers-lock-and-key-img02.png)](/assets/Programmers/2019-11-24-Programmers-lock-and-key-img02.png)  
+[![](/assets/Programmers/2019-11-24-Programmers-lock-and-key-img01.jpg)](/assets/Programmers/2019-11-24-Programmers-lock-and-key-img01.jpg)  
+[![](/assets/Programmers/2019-11-24-Programmers-lock-and-key-img02.jpg)](/assets/Programmers/2019-11-24-Programmers-lock-and-key-img02.jpg)  
 이번 2020 카카오 공채 문제 중 하나였다. 처음 문제를 쭈욱 읽어볼 때 이건 풀 수 있겠다! 싶었는데 결국 시간이 부족해 풀지 못했다. 로직은 떠올랐는데 .....  
   
 문제에 대한 로직은 다음 그림과 같다. `key`에 해당하는 배열을 회전 시켜가며 `lock`에 홈 부분에 맞는 부분이 있는지를 탐색하는 것이다.  
-[![](/assets/Programmers/2019-11-24-Programmers-lock-and-key-img03.png)](/assets/Programmers/2019-11-24-Programmers-lock-and-key-img03.png)  
-[![](/assets/Programmers/2019-11-24-Programmers-lock-and-key-img04.png)](/assets/Programmers/2019-11-24-Programmers-lock-and-key-img04.png)  
+[![](/assets/Programmers/2019-11-24-Programmers-lock-and-key-img03.jpg)](/assets/Programmers/2019-11-24-Programmers-lock-and-key-img03.jpg)  
+[![](/assets/Programmers/2019-11-24-Programmers-lock-and-key-img04.jpg)](/assets/Programmers/2019-11-24-Programmers-lock-and-key-img04.jpg)  
 
   
 ## 문제 풀이     
