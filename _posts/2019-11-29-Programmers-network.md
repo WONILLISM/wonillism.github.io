@@ -17,7 +17,7 @@ last_modified_at: 2019-11-29
 ## 문제
 [![](/assets/Programmers/2019-11-29-Programmers-network-img01.jpg)](/assets/Programmers/2019-11-29-Programmers-network-img01.jpg)  
 [![](/assets/Programmers/2019-11-29-Programmers-network-img02.jpg)](/assets/Programmers/2019-11-29-Programmers-network-img02.jpg)  
-[![](/assets/Programmers/2019-11-29-Programmers-network-img03.jpg)](/assets/Programmers/2019-11-29-Programmers-network-img03.jpg)
+[![](/assets/Programmers/2019-11-29-Programmers-network-img03.jpg)](/assets/Programmers/2019-11-29-Programmers-network-img03.jpg)  
 간단한 `BFS`문제이다. 주어지는 그래프가 하나의 정점도 자기 자신으로 돌아가는 그래프라고 생각하고 이어진 그래프가 몇 개의 덩어리로 나뉘는지?를 세어주면 되는 문제이다.  
 
   
