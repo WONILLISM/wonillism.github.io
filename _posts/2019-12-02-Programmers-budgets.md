@@ -13,7 +13,7 @@ tags:
     - 코딩
     - 코딩테스트
 use_math: true
-last_modified_at: 2019-12-07
+last_modified_at: 2019-12-02
 ---    
 # [(lv3) 예산](https://programmers.co.kr/learn/courses/30/lessons/43237)   
 
