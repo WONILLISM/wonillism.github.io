@@ -23,9 +23,8 @@ __참조__ : <https://webzz.tistory.com/>
 앞에서 배웠던 레이아웃 만드는 방법들을 이용하여 기본 레이아웃을 만들어 보자.  
   
 ### Layout  
-
-[![img01](..\assets\Make_Blog\2019-12-26-Makeblog-Website-02-img01.JPG)](..\assets\Make_Blog\2019-12-26-Makeblog-Website-02-img01.JPG)  
-
+[![img01](/assets/Make_Blog/2019-12-26-Makeblog-Website-02-img01.jpg)](/assets/Make_Blog/2019-12-26-Makeblog-Website-02-img01.jpg)  
+  
 [CODE](https://github.com/WONILLISM/Study_web/commit/c77f9e88cdddf59f2bf69d3e755dd9554be8b319)  
 
 위와 같은식으로 `헤더`, `콘텐츠 네비게이션`, `콘텐츠 타이틀`, `콘텐츠 배너`, `세부 콘텐츠`, `풋터` 로 구분하여 만들 예정이다.  
@@ -35,7 +34,7 @@ __참조__ : <https://webzz.tistory.com/>
 마우스를 사용할 수 없는 상활일 때 사용하는 스킵메뉴를 추가했다.  
 평소에는 보이지 않다가 `Tap`을 눌렀을 때 보여지는 메뉴다.  
 
-[![img02](..\assets\Make_Blog\2019-12-26-Makeblog-Website-02-img02.JPG)](..\assets\Make_Blog\2019-12-26-Makeblog-Website-02-img02.JPG)  
+[![img02](/assets/Make_Blog/2019-12-26-Makeblog-Website-02-img02.jpg)](/assets/Make_Blog/2019-12-26-Makeblog-Website-02-img02.jpg)  
   
 [CODE](https://github.com/WONILLISM/Study_web/commit/0d84e564b5a61656d760fcba59665c8f7c587297)  
   
@@ -49,7 +48,8 @@ __참조__ : <https://webzz.tistory.com/>
 ```  
 
 + 위와 같이 `display:inline-block`으로 해결한다.
-  
-[![img03](..\assets\Make_Blog\2019-12-26-Makeblog-Website-02-img03.JPG)](..\assets\Make_Blog\2019-12-26-Makeblog-Website-02-img03.JPG)  
 
+
+[![img03](/assets/Make_Blog/2019-12-26-Makeblog-Website-02-img03.jpg)](/assets/Make_Blog/2019-12-26-Makeblog-Website-02-img03.jpg)  
+  
 [CODE](https://github.com/WONILLISM/Study_web/commit/f140c81642db8ab3801fa3365347bc91b18c09bf)  
