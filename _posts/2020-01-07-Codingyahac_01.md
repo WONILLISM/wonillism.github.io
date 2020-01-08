@@ -3,7 +3,7 @@ title: "[코딩야학 7기] 프로젝트 01"
 excerpt: "Layout 디자인 하기"
 
 categories:
-    - 코딩야학
+    - codingyahac
 tags:
     - 코딩야학
     - 생활코딩
@@ -28,8 +28,8 @@ last_modified_at: 2020-01-07
 현재 사용하고잇는 테마 `minimal_mistakes`를 참고하며 만들고싶지만... 여간 복잡한게 아니다... 차츰차츰 바꿔나가자.  
   
 
-<details>  
-<summary> index.html 파일 </summary>  
+
+### index.html 파일  
   
 ```html
 <!DOCTYPE html>
@@ -72,10 +72,7 @@ last_modified_at: 2020-01-07
 </body>
 </html>
 ```  
-</details>
-  
-<details>  
-<summary> style.css 파일 </summary>  
+### style.css 파일    
   
 ```css
 @charset "utf-8";
@@ -86,11 +83,9 @@ last_modified_at: 2020-01-07
 #content{width: 100%; height: 800px; background: #832046;}
 #footer{width: 100%;height: 200px;background: #300c1a;}
 ```   
-</details>  
   
 
-<details>  
-<summary> reset.css 파일 </summary>  
+### reset.css 파일  
   
 ```css
 @charset "utf-8";
@@ -112,6 +107,5 @@ body, input, textarea, select, button, table {
     color: #222; font-size: 13px; line-height: 1.5;
 } 
 ```  
-</details>  
 
 버튼을 눌렀을 때 사이드바가 접었다 펴지는 기능을 어떻게 넣는지 모르겠다. 좀 더 알아봐야겠다.  
