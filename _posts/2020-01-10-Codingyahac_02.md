@@ -20,7 +20,7 @@ last_modified_at: 2020-01-10
 &nbsp; &nbsp; 무작정 구상했던 __Layout__ 을 구현하려니 아직까지는 내가 제대로 알고있는 부분이 적은 것 같다.  
 그래서 __Layout__ 을 구현하기 위해서 필요한 것이 무엇인지 다시 생각해보았다.
   
-[![Layout Design](/assets/Codingyahac/2020-01-10-Codingyahac-02-img01.png)](/assets/Codingyahac/2020-01-10-Codingyahac-02-img01.png))  
+[![Layout Design](/assets/Codingyahac/2020-01-10-Codingyahac-02-img01.png)](/assets/Codingyahac/2020-01-10-Codingyahac-02-img01.png)  
   
 레이아웃 디자인을 좀 더 상세히 구성해보았다.  
 지금 내가 필요한 것은
