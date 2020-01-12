@@ -3,7 +3,7 @@ title: "[코딩야학 7기] 프로젝트 01"
 excerpt: "Layout 디자인 하기"
 
 categories:
-    - codingyahac
+    - Make_Blog
 tags:
     - 코딩야학
     - 생활코딩
@@ -22,7 +22,7 @@ last_modified_at: 2020-01-07
 ## 01. Layout 설계하기  
 &nbsp; &nbsp; 우선 내가 만들 블로그가 이런 모양이었으면 좋겠다는 생각으로 포토샵으로 디자인을 구성해보았다.  
   
-![Layout Design](/assets/Codingyahac/2020-01-07-Codingyahac-01-img01.JPG)  
+![Layout Design](/assets/Make_Blog/2020-01-07-Makeblog-Codingyahac-01-img01.JPG)  
 지금 블로그와 비슷하지만 __네비게이션__ 메뉴에서 카테고리 부분은 __sidebar__ 에서 볼 수 있고 접었다 펼 수 있게 하고싶다.  
   
 현재 사용하고잇는 테마 `minimal_mistakes`를 참고하며 만들고싶지만... 여간 복잡한게 아니다... 차츰차츰 바꿔나가자.  
