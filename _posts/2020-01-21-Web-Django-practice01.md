@@ -12,7 +12,7 @@ tags:
     - Web framework
     - 웹 프레임워크
 use_math: true;
-last_modified_at: 2020-01-13
+last_modified_at: 2020-01-21
 --- 
 > 웹 프레임워크 __Django(장고)__ 공부  
 > 개발 언어 : __python__  
