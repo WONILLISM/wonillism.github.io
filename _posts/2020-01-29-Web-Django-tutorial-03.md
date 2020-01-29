@@ -14,7 +14,7 @@ tags:
     - tutorial
     - 튜토리얼
 use_math: true;
-last_modified_at: 2020-01-26
+last_modified_at: 2020-01-29
 --- 
 > 웹 프레임워크 __Django(장고)__ 공부  
 > 개발 언어 : __python 3.8.1__  
