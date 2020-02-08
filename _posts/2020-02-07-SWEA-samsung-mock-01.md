@@ -1,5 +1,5 @@
 ---
-title: "[SWEA]삼성모의기출 등산로 - 조성"
+title: "[SWEA]삼성모의기출 - 등산로 조성"
 excerpt: "삼성 모의 기출 문제 풀이"
 
 categories:
