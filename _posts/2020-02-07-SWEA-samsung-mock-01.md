@@ -1,6 +1,6 @@
 ---
-title: "[SWEA]삼성모의기출 등산로 조성"
-excerpt: "백준 단계별로 풀기 - 수학2 06 ~ 10"
+title: "[SWEA]삼성모의기출 등산로 - 조성"
+excerpt: "삼성 모의 기출 문제 풀이"
 
 categories:
     - SWEA
