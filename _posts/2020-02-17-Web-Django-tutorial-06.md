@@ -85,7 +85,7 @@ def post_list(request):
   
 `blog/templates/blog/post_list.html`을 아래와 같이 수정해준다.  
   
-```html  
+```Django  
 <!DOCTYPE html>
 <html>
     <head>
@@ -96,20 +96,28 @@ def post_list(request):
             <h1><a href="">Wonillism Blog</a></h1>
         </div>
 
-        {% for post in posts %}
-            {{post}}
-            <div>
-                <p>published: {{ post.published_date }}</p>
-                <h1><a href="">{{ post.title}}</a></h1>
-                <p>{{ post.test|linebreaksbr}}</p>
-            </div>
-        {% endfor %}
+        
+        <div>
+            <p>published: {{ post.published_date }}</p>
+            <h1><a href="">{{ post.title}}</a></h1>
+            <p>{{ post.test|linebreaksbr}}</p>
+        </div>
 
     </body>
 </html>
 
 ```  
-`{% for %}, {% endfor %}`을 이용하여 모든 포스트를 보여준다.  
+두번 째 `<div>` 아래에  
+`{\%\ for post in posts \%\}`  
+`{{ post }}`  
+를 입력하고  
+`</div>` 아래에  
+`{\%\ endfor \%}\`  
+를 입력한다.  
+
+> markup 과 `{\%\\%\}` 이 혼용되어서 오류가 나서 위와 같이 따로 씀.  
+  
+`{\%\ for \%\}, {\%\ endfor \%\}`을 이용하여 모든 포스트를 보여준다.  
 
 [![](/assets/web/Django/2020-02-17-Web-Django-tutorial-05-img01.png)](/assets/web/Django/2020-02-17-Web-Django-tutorial-05-img01.png)  
   
