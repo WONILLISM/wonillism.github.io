@@ -50,7 +50,7 @@ last_modified_at: 2020-02-28
 alert("Hello world!");
 ```  
   
-[![그림 01](/assets/web/nomard-js-2weeks/2020-02-28-Web-Javascript-Nomard-2Weeks-01-img01.png)](/assets/web/nomard-js-2weeks/2020-02-28-Web-Javascript-Nomard-2Weeks-01-img01.png))  
+[![그림 01](/assets/web/nomard-js-2weeks/2020-02-28-Web-Javascript-Nomard-2Weeks-01-img01.png)](/assets/web/nomard-js-2weeks/2020-02-28-Web-Javascript-Nomard-2Weeks-01-img01.png)  
   
 ## 변수 type  
   
