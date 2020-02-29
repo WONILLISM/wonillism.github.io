@@ -50,8 +50,8 @@ last_modified_at: 2020-02-28
 alert("Hello world!");
 ```  
   
-[![그림 01](/assets/web/Javascript/2020-02-28-Web-Javascript-Nomard-2Weeks-01-img01.PNG)](/assets/web/Javascript/2020-02-28-Web-Javascript-Nomard-2Weeks-01-img01.PNG)  
-    
+[![](/assets/Web/Javascript/2020-02-28-Web-Javascript-Nomard-01-img01.png)](/assets/Web/Javascript/2020-02-28-Web-Javascript-Nomard-01-img01.png)  
+      
 ## 변수 type  
   
 + __var__ : ES6 이전 버전에서 쓰이던 변수. 중복 선언이 가능하다. 따라서 코드의 길이가 길어지면 에러를 발생시킬수 있는 가능성이 커진다.  
