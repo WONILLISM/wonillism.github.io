@@ -29,16 +29,16 @@ last_modified_at: 2020-03-07
 
 __BOM(Browser Object Model)__ 
 
-브라우저와 관련된 객체들의 집합으로서 __BOM__을 이용하여 Browser와 관련된 기능들을 구성한다. 이 __BOM__을 이용해서 Browser와 관련된 기능들을 구성한다.   
+브라우저와 관련된 객체들의 집합으로서 __BOM__ 을 이용하여 Browser와 관련된 기능들을 구성한다. 이 __BOM__ 을 이용해서 Browser와 관련된 기능들을 구성한다.   
 
-__BOM__의 최상위 객체는 window라는 객체이다.
+__BOM__ 의 최상위 객체는 window라는 객체이다.
 
 ### DOM 이란?  
-__DOM(Document Object Model)__은 __window__ 객체의 하위 객체이기도 하다.  
+__DOM(Document Object Model)__ 은 __window__ 객체의 하위 객체이기도 하다.  
 
 넓은 의미로 웹 브라우저가 __HTML__ 페이지를 인식하는 방법을 의미하고 조금 좁은 의미로 보면 __document__ 객체와 관련된 객체의 집합을 의미한다.  
 
-즉, html의 __태그__나 __클래스__, __아이디 __를 __Javascript__가 이용할 수 있는 객체로 만들어 주는 역할을 한다.  
+즉, html의 __태그__ 나 __클래스__ , __아이디 __ 를  __Javascript__ 가 이용할 수 있는 객체로 만들어 주는 역할을 한다.  
 
 __DOM 구조__  
 
@@ -82,7 +82,7 @@ title.innerHTML = "Fuck!";
 > [참고1](https://humahumahuma.tistory.com/122)
 > [참고2](https://whatabouthtml.com/difference-between-getelementbyid-and-queryselector-180)
 
-둘 다 __DOM__에서 제어할 수 있으나 __querySelector__는 첫번째 자식을 반환한다.  
+둘 다 __DOM__ 에서 제어할 수 있으나 __querySelector__ 는 첫번째 자식을 반환한다.  
 
 |                        getElementby..                        |                        querySelector                         |
 | :----------------------------------------------------------: | :----------------------------------------------------------: |
