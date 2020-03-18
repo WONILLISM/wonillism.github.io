@@ -42,7 +42,7 @@ body
 뒤 늦은 결과물 포스팅
 
 ### CLICK!  
-[![image-20200318163855047](D:\Git\Blog\wonillism.github.io\assets\Web\404page\2020-03-18-Web-404notfoundpage-04-img01)](https://wonillism.github.io/404NotFoundPage/WONILLISM/)
+[![image-20200318163855047](/assets/Web/404page/2020-03-18-Web-404notfoundpage-04-img01.png)](https://wonillism.github.io/404NotFoundPage/WONILLISM/)
 
   
 
