@@ -295,7 +295,7 @@ defaults:
       related: true
       toc: true
       toc_ads: true
-      
+      toc_sticky: true
 
 
   # _pages
