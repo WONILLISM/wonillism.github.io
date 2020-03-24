@@ -16,7 +16,7 @@ use_math: true;
 
 last_modified_at: 2020-03-23
 --- 
-  
+
 {% include GoogleAdSenseSidebar.html %}
 # Brute Force Search(브루트포스)  
 
@@ -144,6 +144,7 @@ int main() {
 
 4. 위 그림과 같이 i와 j를 하나씩 증가해주면서 조건에 맞는 결과를 찾을 때 까지 반복한다.  
 
+{% include GoogleAdSenseSidebar.html %}  
 
 
 **dp** 나 **좀 더 최적화 시킬 방법** 을 찾다가 문제 자체가 그냥 완탐을 하라는 문제인거 같아서 고민하다가 그냥 완전탐색으로 구현하였다. 그리 복잡한 문제도 아니고 해서 재귀를 사용하지 않고 반복문으로 해결하였다.  
@@ -191,3 +192,69 @@ int main() {
 
 [Link](https://wonillism.github.io/boj_samsung/BOJ-Samsung-07/)  
 
+퇴사 문제를 **Brute Force** 로풀고나서 나중에 **DP** 로도 풀 수 있다는 것을 알게됐었지만 다시 풀어야지 하면서 미루다가 이번 기회에 **DP** 방식으로 다시 한 번 풀어보았다.  
+
+```cpp
+#include <iostream>
+#include<algorithm>
+#include<vector>
+#define PII pair<int,int>
+
+using namespace std;
+
+const int MAX = 15;
+const int INF = 1 << 30;
+int N;
+vector<PII> info;	//Ti, Pi
+vector<int> dp;
+int solution(int day) {	
+	if (day == N )return 0;
+	if (day > N )return -INF;
+	if (dp[day])return dp[day];
+	else
+		return max(solution(day + 1), solution(day + info[day].first) + info[day].second);
+}
+int main() {
+	cin >> N; 
+	for (int i = 0; i < N; i++) {
+		int t, p;
+		cin >> t >> p;
+		info.push_back({ t,p });
+	}
+	dp.assign(N, 0);
+	cout << solution(0) << endl;
+	return 0;
+}
+```
+
+
+
+
+
+사실 문제 자체가 **DP** 를 이용할 만큼을 요구하지 않아서인지 결과의 차이는 없었다.  
+
+**Brute Force** 로 풀었을 때 걸리는 최악의 시간복잡도는 $O(N^2)$  
+
+**DP** 로 풀었을 때 걸리는 최악의 시간복잡도는 $O(N)$  
+
+하지만 결과는 차이가 없다.  
+
+[![](/assets/Algorithm/2020-03-23-algorithm-bruteforce-img02.png)](/assets/Algorithm/2020-03-23-algorithm-bruteforce-img02.png)  
+
+**문제 풀이**  
+
+**DP**  풀이는 이전에 계산된 값을 **memoization** 을 통해 다시 한 번 계산되지 않게하여 필요 없는 계산을 줄인다. 
+
+```cpp
+if (dp[day])return dp[day];
+	else
+		return max(solution(day + 1), solution(day + info[day].first) + info[day].second);
+```
+
+
+
+이 부분이 핵심이다. `dp[day]`에 값이 있으면 그냥 그 값을 `return`하고 그렇지 않다면 `day+1`을 했을 때 나오는 값과 그 날 일을 했을 때의 값을 비교하여 최댓값으로 갱신 해준다.  
+
+  dp에 대한 자세한 설명은 다음 포스팅에서 다루겠다.  
+
+{% include GoogleAdSenseSidebar.html %}  
