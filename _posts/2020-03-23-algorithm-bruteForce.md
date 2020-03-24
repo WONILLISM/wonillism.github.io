@@ -5,13 +5,19 @@ excerpt: "Brute Force를 알아보자"
 categories:
     - Algorithm
 tags:
-        - brute force
-        - 브루트 포스
-        - 완전탐색
-        - 야만적인 힘
-        - 알고리즘
-        - algorhtim
-        - 개념  
+    - brute force
+    - 브루트 포스
+    - 완전탐색
+    - 야만적인 힘
+    - 알고리즘
+    - algorhtim
+    - BOJ
+    - 일곱난쟁이
+    - 퇴사
+    - '2309'
+    - '14501'
+    - c++
+    - cpp  
 use_math: true;
 
 last_modified_at: 2020-03-23
