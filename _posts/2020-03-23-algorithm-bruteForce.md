@@ -16,7 +16,8 @@ use_math: true;
 
 last_modified_at: 2020-03-23
 --- 
-
+  
+{% include GoogleAdSenseSidebar.html %}
 # Brute Force Search(브루트포스)  
 
 아마도 알고리즘을 공부하면서 가장 처음으로 뭔가... 알고리즘 같은? 것을 배우기 시작하는 부분이 아닐까 싶다.  
@@ -181,4 +182,12 @@ int main() {
 	return 0;
 }
 ```
+
+
+
+그렇다면 **Brute Force** 와 **Dynamic Procramming** 둘 다 풀 수 있는 문제를 보자.  
+
+예전에 올렸던 **퇴사** 문제다.  문제 설명은 아래 링크를 통해 알아보자. 
+
+[Link](https://wonillism.github.io/boj_samsung/BOJ-Samsung-07/)  
 
