@@ -1,5 +1,5 @@
 ---
-title: "[BOJ step 13] Brute Force 01"
+title: "[BOJ step 13] Brute Force 01. 블랙잭"
 excerpt: "백준 단계별로 풀기 Brute Force 1번"
 
 categories:
@@ -18,7 +18,7 @@ tags:
     - cpp  
 use_math: true;
 
-last_modified_at: 2020-03-23  
+last_modified_at: 2020-03-25  
 ---
 
 백준 단계별로 풀기가 계속해서 업데이트 해서 단계가 뒤죽박죽이다... **2020-03-25** 기준 **Brute Force** 는 단계 13이다.  
