@@ -125,8 +125,8 @@ sort([start, end), 정렬방식(default : 오름차순));
 개구간 start에서 폐구간 end 까지 정렬방식에 의해 정렬이 가능하다.  정렬방식은 `bool`함수를 만들어 원하는데로 정렬이 가능하다.  
 
 ```cpp
-bool comp(int a, int b){ return a < b;}	// 오름차순
-bool comp(int a, int b){ return a > b;} // 내림차순
+bool cmp(int a, int b){ return a < b;}	// 오름차순
+bool cmp(int a, int b){ return a > b;} // 내림차순
 
 sort(v.begin(), v.end(), cmp);
 ```
