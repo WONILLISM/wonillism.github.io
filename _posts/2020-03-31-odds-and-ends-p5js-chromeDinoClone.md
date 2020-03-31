@@ -1,5 +1,3 @@
-
-
 ---
 title: "[심심풀이/잡동사니] p5.js - 크롬 공룡 게임"
 excerpt: "자료구조 hash를 알아보자"
@@ -7,7 +5,7 @@ excerpt: "자료구조 hash를 알아보자"
 categories:
     - odds and ends
 tags:
-    - p5.js
+    - 'p5.js'
     - processing
     - 프로세싱
     - game
@@ -57,7 +55,7 @@ last_modified_at: 2020-03-31
 
 저런 반복적인 성질을 이용하여 **chrome** 이스터 에그인 공룡게임을 만들어 보았다.  
 
-[![dino game](./assets/odds_and_ends/Processing/clone_dino_game)  ](https://wonillism.github.io/odds-and-ends/chrome-dino-clone/)  
+[![dino game](/assets/odds_and_ends/Processing/clone_dino_game.png)](https://wonillism.github.io/odds-and-ends/chrome-dino-clone/)  
 
 이미지를 클릭하면 직접 해볼수 있다.  
 
