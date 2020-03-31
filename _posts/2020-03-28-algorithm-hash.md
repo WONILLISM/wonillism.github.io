@@ -29,7 +29,7 @@ last_modified_at: 2020-03-27
 
 하지만 항상 명심하자 **STL** 을 사용할 때는 사용법을 정확하게 알고 문제에 적용시킬 수 있을 때 사용하자. 
 
-{% include GoogleAdSensePost.html %}
+{% include GoogleAdSenseSidebar.html %}
 
 # Hash(해시) 란?  
 
@@ -54,4 +54,4 @@ last_modified_at: 2020-03-27
 
 후에 해시와 관련된 컨테이너들을 포스팅 하겠다.
 
-{% include GoogleAdSensePost.html %}
+{% include GoogleAdSenseSidebar.html %}

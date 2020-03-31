@@ -1,6 +1,6 @@
 ---  
 title: "[심심풀이/잡동사니] p5.js - 크롬 공룡 게임"
-excerpt: "자료구조 hash를 알아보자"
+excerpt: "Clone chrome dino game"
 
 categories:
     - odds and ends
@@ -22,7 +22,7 @@ last_modified_at: 2020-03-31
 
 학부시절 배웠던 **processing** 이란 **IDE** 를 이용하여 게임을 만들었다. 중학생 코딩과외를 하면서 시작한 프로젝튼데 생각보다 어려웠는지 잘 따라오지 못해서 많이 아쉬웠다.  
 
-{% include GoogleAdSensePost.html %}
+{% include GoogleAdSenseSidebar.html %}
 
 # Processing  
 
@@ -49,7 +49,7 @@ last_modified_at: 2020-03-31
 
 > [출처: 구글 이미지 검색](https://www.google.com/search?q=processing+animation&tbm=isch&ved=2ahUKEwiii4LStcToAhWnG6YKHVCDBJcQ2-cCegQIABAA&oq=processing+animation&gs_lcp=CgNpbWcQAzIECCMQJzIECCMQJzIECAAQEzIECAAQEzIICAAQBRAeEBMyCAgAEAUQHhATMggIABAFEB4QEzIICAAQBRAeEBMyCAgAEAgQHhATUKUNWLUQYMITaABwAHgAgAGuAYgBrgWSAQMwLjSYAQCgAQGqAQtnd3Mtd2l6LWltZw&sclient=img&ei=9Q-DXuK8Eae3mAXQhpK4CQ&bih=794&biw=1466&rlz=1C1OKWM_enKR884KR884#imgrc=c0sx_lJgtt-nCM&imgdii=yxMqLAyWScelbM)  
 
-{% include GoogleAdSensePost.html %}  
+{% include GoogleAdSenseSidebar.html %}
 
 **Processing(프로세싱)** 은 기본적으로 초기에 한번 호출하는 `void setup()` 함수와 **60frame(default)** 마다 반복해서 호출하는 `void draw()` 함수로 이루어져있는데 이를 이용해서 **animation** 을 만들 수 있다.  
 
@@ -61,4 +61,4 @@ last_modified_at: 2020-03-31
 
 
 
-{% include GoogleAdSensePost.html %}
+{% include GoogleAdSenseSidebar.html %}
