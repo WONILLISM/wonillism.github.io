@@ -1,6 +1,6 @@
 ---
 title: "[BOJ step 13] Brute Force 03. 덩치"
-excerpt: "백준 단계별로 풀기 Brute Force 2번"
+excerpt: "백준 단계별로 풀기 Brute Force 3번"
 
 categories:
     - BOJ_Step
