@@ -16,14 +16,14 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "ko-KR"
-title                    : "WONILLISM's Blog"
+title                    : "FreeHyun84 Blog"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "WONILLISM"
-description              : "나의 공부 스택"
+name                     : "FreeHyun84"
+description              : "FreeHyun Study Stack"
 url                      : "https://qkrtmdgus84.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : https://github.com/wonillism # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : https://github.com/qkrtmdgus84 # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   :  # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
@@ -32,7 +32,7 @@ words_per_minute         : 200
 comments:
   provider               : "disqus" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
   disqus:
-    shortname            : "wonillism-github-io" # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+    shortname            : "qkrtmdgus84-github-io" # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -105,15 +105,15 @@ analytics:
     anonymize_ip         : # true, false (default)
 # Site Author
 author:
-  name             : "Park Won Il"
+  name             : "FreeHyun84"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "늦깎이 개발자 지망생"
+  bio              : "무념무상"
   location         : "South Korea"
   email            :
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: wonillism@gmail.com
+      url: shounghyun@gmail.com
     #- label: "Website"
     #  icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
@@ -125,7 +125,7 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/WONILLISM/WONILLISM.github.io"
+      url: "https://github.com/qkrtmdgus84/qkrtmdgus84.github.io"
     #- label: "Instagram"
     #  icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
@@ -143,7 +143,7 @@ footer:
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: https://github.com/wonillism/wonillism.github.io
+      url: https://github.com/qkrtmdgus84/qkrtmdgus84.github.io
       # url:
     #- label: "GitLab"
     #  icon: "fab fa-fw fa-gitlab"

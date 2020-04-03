@@ -30,7 +30,7 @@ header:
   overlay_image: /assets/Images/main-teaser.jpg
   overlay_filter: 0.5
 ---
-## WONILLISM.github.io 블로그
+## qkrtmdgus84.github.io 블로그
 ```  
 블로그에 대한 설명을 하는 페이지이다.  
 `---` ~ `---`에 들어가는 내용은 yaml front matter 라고 불리는데 작성할 글(post, page 등)에 대한 머릿말이라고 생각하면된다.  
@@ -93,7 +93,7 @@ main페이지에도 `about`페이지와 같은 사진을 올려놓았는데 블�
 layout: home
 author_profile: true  
 header:
-  overlay_image: /assets/Images/main-teaser.jpg
+  overlay_image: /assets/Images/main-teaser2.jpg
   overlay_filter: 0.5
 ---
 

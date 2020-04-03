@@ -1,11 +1,11 @@
 ---
-title: "About WONILLISM's Blog"
+title: "About FreeHyun84 Blog"
 permalink: /about/
 layout: single
 header:
-  overlay_image: /assets/Images/main-teaser.jpg
+  overlay_image: /assets/Images/main-teaser2.jpg
   overlay_filter: 0.5
 ---
 
-## WONILLISM.github.io 블로그
+## qkrtmdgus84.github.io 블로그
 
