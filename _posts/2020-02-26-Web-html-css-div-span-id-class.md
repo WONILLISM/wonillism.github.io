@@ -13,6 +13,7 @@ tags:
     - class
 use_math: true;
 last_modified_at: 2020-02-26
+published : false
 --- 
 > __HTML/CSS__ 공부  
 > 개발 언어 : __HTML/CSS__  

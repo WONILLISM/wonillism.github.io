@@ -14,6 +14,7 @@ tags:
     - front end
 use_math: true;
 last_modified_at: 2020-02-28
+published : false
 --- 
 > __HTML/CSS__ 공부  
 > 개발 언어 : __javascript__  

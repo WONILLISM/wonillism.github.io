@@ -14,6 +14,7 @@ tags:
     - 코딩테스트
 use_math: true
 last_modified_at: 2019-12-01
+published : false
 ---    
 # [(lv3) 단어 변환](https://programmers.co.kr/learn/courses/30/lessons/43163)   
 

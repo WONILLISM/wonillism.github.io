@@ -14,6 +14,7 @@ tags:
     - 코딩테스트
 use_math: true
 last_modified_at: 2019-12-01
+published : false
 ---    
 # [(lv3) 디스크 컨트롤러](https://programmers.co.kr/learn/courses/30/lessons/42627)   
 

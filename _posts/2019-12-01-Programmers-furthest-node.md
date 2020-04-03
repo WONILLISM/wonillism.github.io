@@ -14,6 +14,7 @@ tags:
     - 코딩테스트
 use_math: true
 last_modified_at: 2019-12-01
+published : false
 ---    
 # [(lv3) 가장 먼 노드](https://programmers.co.kr/learn/courses/30/lessons/49189)   
 간단한 `BFS`문제다.  

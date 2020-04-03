@@ -13,6 +13,7 @@ tags:
     - sort
     - 자료구조
 last_modified_at: 2019-11-06
+published : false
 ---  
 자료구조에는 여러가지 정렬 방법이 있다. 그 정렬 방법에따라 시간 복잡도는 `O(n^2)`, `O(nlogn)`등으로 나뉜다.  
 [![](/assets/cppSTL/sort.gif)](/assets/cppSTL/sort.gif)

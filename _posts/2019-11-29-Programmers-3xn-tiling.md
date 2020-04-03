@@ -15,6 +15,7 @@ tags:
     - 메모이제이션  
 use_math: true
 last_modified_at: 2019-11-29
+published : false
 ---    
 # [(lv4) 3 x n 타일링](https://programmers.co.kr/learn/courses/30/lessons/12902)   
 

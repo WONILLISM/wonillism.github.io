@@ -14,6 +14,7 @@ tags:
     - 코딩테스트
 use_math: true
 last_modified_at: 2019-11-30
+published : false
 ---    
 # [(lv3) 정수 삼각형](https://programmers.co.kr/learn/courses/30/lessons/43105)   
 

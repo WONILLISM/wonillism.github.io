@@ -14,6 +14,7 @@ tags:
     - 지킬 테마
     - minimal-mistakes  
 last_modified_at: 2019-11-02
+published : false
 ---
 ![](/assets/Make_Blog/2019-11-02-Makeblog-Breakminimalmistakes-01-img01.jpg)  
 깃헙 블로그를 좀 더 내 입맛에 맞게, 좀 더 블로그 답게 꾸미고 싶었다. 그동안의 포스팅도 포기하며... 계속해서 구글링을하고 다른 블로그로 갈아탈까 고민하고..  

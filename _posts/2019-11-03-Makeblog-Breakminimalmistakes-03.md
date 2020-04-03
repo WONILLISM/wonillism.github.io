@@ -14,6 +14,7 @@ tags:
     - 지킬 테마
     - minimal-mistakes  
 last_modified_at: 2019-11-03
+published : false
 ---  
 지킬에서 게시물은 크게 post와 page로 구분된다. 그래서 폴더도 _post와 _page로 나뉘는데 _post에는 내가 블로그에 올릴 포스트들이 저장되는 곳이다. post파일들은 날짜 기반(ex  yyyy-mm-dd-post-title.md)으로 작성된다. _page에는 포스팅을 제외한 특정 페이지를 보여줄 페이지 파일들이 저장되는 곳이다.  
   

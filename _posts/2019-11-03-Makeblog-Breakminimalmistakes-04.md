@@ -14,6 +14,7 @@ tags:
     - 지킬 테마
     - minimal-mistakes  
 last_modified_at: 2019-11-04
+published : false
 ---  
 ### 블로그 메뉴 만들기  
 이전의 포스트에서 만든 page들을 상단 메뉴에 링크를 걸어보자.  

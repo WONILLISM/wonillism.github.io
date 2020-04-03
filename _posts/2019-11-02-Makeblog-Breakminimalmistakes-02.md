@@ -14,6 +14,7 @@ tags:
     - 지킬 테마
     - minimal-mistakes  
 last_modified_at: 2019-11-02
+published : false
 ---  
 ## 블로그 기본 설정  
 jekyll의 기본 구성을 설정할 수 있는 `_config.yml`파일은 전체 사이트에 영향을 준다.  

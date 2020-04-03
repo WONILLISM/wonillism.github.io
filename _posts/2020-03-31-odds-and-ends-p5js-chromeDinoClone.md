@@ -18,6 +18,7 @@ tags:
 use_math: true;
 
 last_modified_at: 2020-03-31
+published : false
 ---  
 
 학부시절 배웠던 **processing** 이란 **IDE** 를 이용하여 게임을 만들었다. 중학생 코딩과외를 하면서 시작한 프로젝튼데 생각보다 어려웠는지 잘 따라오지 못해서 많이 아쉬웠다.  
