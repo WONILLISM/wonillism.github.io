@@ -23,7 +23,7 @@ last_modified_at: 2020-04-04
 
 {% include GoogleAdSenseSidebar.html %}
 
-# [체스판 다시 칠하기](https://www.acmicpc.net/problem/7568)
+# [체스판 다시 칠하기](https://www.acmicpc.net/problem/1018)
 
 ### 문제 설명
 
