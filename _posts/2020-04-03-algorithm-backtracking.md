@@ -23,8 +23,9 @@ last_modified_at: 2020-04-02
 --- 
 
 백트래킹, 있는 그대로를 해석해보면 역추적? 정도 일까.. 그럼 어떻게?? 무슨 뜻이지? 라는 의문을 항상 가지고 있었다.  어떤 설명을 보면 **DFS** 와 무슨차이인가 싶기도하고.. 정확히 머리속에 정리가 안됐었다. 이번 포스팅에서 그 의문을 풀어보고자한다.  
-
-{% include GoogleAdSenseSidebar.html %}
+  
+{% include GoogleAdSenseSidebar.html %}  
+  
 
 # Backtracking(백트래킹)
 
@@ -116,7 +117,7 @@ int main() {
 	return 0;
 }
 ```
+  
 
-
-
+  
 {% include GoogleAdSenseSidebar.html %}  
