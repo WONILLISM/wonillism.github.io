@@ -64,13 +64,13 @@ body
 
 ### header
 
-[![image01](/assets/web/clone_netflix/header01.png)](/assets/web/clone_netflix/header01.png)
+[![image01](/assets/Web/clone_netflix/header01.png)](/assets/Web/clone_netflix/header01.png)
 
 ### main
   
-[![image02](/assets/web/clone_netflix/main01.png)](/assets/web/clone_netflix/main01.png)
+[![image02](/assets/Web/clone_netflix/main01.png)](/assets/Web/clone_netflix/main01.png)
   
-[![image03](/assets/web/clone_netflix/main02.png)](/assets/web/clone_netflix/main02.png)  
+[![image03](/assets/Web/clone_netflix/main02.png)](/assets/Web/clone_netflix/main02.png)  
   
 
 
