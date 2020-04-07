@@ -44,7 +44,7 @@ last_modified_at: 2020-04-06
 ![image-20200407172006132](/assets/Web/clone_netflix/result05.png)
 
   
-## [넷플릭스 따라하기 02. HTML 구조](./2020-04-07-web-clone-netflix-02.md)  
+## [넷플릭스 따라하기 02. HTML 구조](../_posts/2020-04-07-web-clone-netflix-02.md)  
 
 
 {% include GoogleAdSensePost.html %}  
