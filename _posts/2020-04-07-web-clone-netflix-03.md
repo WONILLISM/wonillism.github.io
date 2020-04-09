@@ -1,5 +1,5 @@
 ---
-title: "[WEB] Netflix 따라 만들기 02. CSS 구조"
+title: "[WEB] Netflix 따라 만들기 03. CSS 구조"
 excerpt: "Netflix 따라 만들기"
 
 categories:
