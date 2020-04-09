@@ -30,7 +30,7 @@ last_modified_at: 2020-04-09
 
 ## Javascript 구조   
 
-[![](/assets/Web/clone_netflix/javascript_structure_img.png)](/assets/Web/clone_netflix/javascript_structure_img.png)
+[![](/assets/Web/clone_netflix/javascript_structure_img.PNG)](/assets/Web/clone_netflix/javascript_structure_img.PNG)
 
   
 
