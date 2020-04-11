@@ -46,7 +46,7 @@ int main() {
 }
 ```  
   
-## [02. 평균 점수](https://www.acmicpc.net/problem/10039)  
+## [02. 상근날드](https://www.acmicpc.net/problem/5543)  
   
 
 ```cpp
