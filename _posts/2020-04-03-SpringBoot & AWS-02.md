@@ -1,5 +1,5 @@
 ---
-title: "테스트 코드 작성과 롬복 전환하기"
+title: "Ⅱ. 테스트 코드 작성과 롬복 전환하기"
 excerpt: "Hello Controller 테스트 코드"
 
 categories:
@@ -10,6 +10,7 @@ tags:
     - IntelliJ IDEA 
     - Gradle
     - Git
+    - Lombok
 use_math: true;
 last_modified_at: 2020-04-07
 
@@ -70,7 +71,7 @@ web 패키지 생성
   
 [![그림 1-9](/assets/Web/AWS/2020-04-07-SpringBoot-AWS-02-img09.png)](/assets/Web/AWS/2020-04-07-SpringBoot-AWS-02-img09.png)  
   
-src/main/java/com/freehyun/book/springboot/web/HelloController
+`src/main/java/com/freehyun/book/springboot/web/HelloController`
 ```java
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -91,13 +92,13 @@ public class HelloController {
 + HTTP Method 인 Get 의 요청을 받을 수 있는 API 를 만들어 준다.  
 + 예전에는 @RequestMapping(method = RequestMethod.GET)으로 사용되었다. 이제 이프로젝트는 /hello 로 요청이 오면 문자열 hello 를 반환하는 기능을 가지게 된다.  
   
-__테스트 코드로 검증__ src/test/java 디렉토리에 앞에서 생성했던 패키지를 그대로 다시 생성  
+__테스트 코드로 검증__ `src/test/java` 디렉토리에 앞에서 생성했던 패키지를 그대로 다시 생성  
 [![그림 1-10](/assets/Web/AWS/2020-04-07-SpringBoot-AWS-02-img10.png)](/assets/Web/AWS/2020-04-07-SpringBoot-AWS-02-img10.png)  
   
 [![그림 1-11](/assets/Web/AWS/2020-04-07-SpringBoot-AWS-02-img11.png)](/assets/Web/AWS/2020-04-07-SpringBoot-AWS-02-img11.png)  
   
 HelloControllerTest 클래스 생성
-/src/test/java/com/freehyun/book/springboot/web/HelloControllerTest
+`src/test/java/com/freehyun/book/springboot/web/HelloControllerTest`  
 ```java
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -174,7 +175,7 @@ Application.java 파일로 이동 __main 메소드 Run 'Application.main()' 버�
 ## 롬복 소개 및 설치하기  
 롬복은 자바 개발할 때 자주 사용하는 코드 Getter, Setter, 기본생성자, toString 등을 어노테이션으로 자동 생성 해준다.  
   
-build.gradle 의존성 추가  
+`build.gradle` 의존성 추가  
 [![그림 1-17](/assets/Web/AWS/2020-04-07-SpringBoot-AWS-02-img17.png)](/assets/Web/AWS/2020-04-07-SpringBoot-AWS-02-img17.png)  
   
 롬복 플러그인 설치 [Ctrl+Shift+A]  
@@ -186,11 +187,11 @@ build.gradle 의존성 추가
 [![그림 1-22](/assets/Web/AWS/2020-04-07-SpringBoot-AWS-02-img22.png)](/assets/Web/AWS/2020-04-07-SpringBoot-AWS-02-img22.png)  
   
 ## Hello Controller 코드를 롬복으로 전환하기  
-web 패키지에 dto 패키지를 추가, HelloResponseDto 생성  
+`web` 패키지에 `dto` 패키지를 추가, HelloResponseDto 생성  
 [![그림 1-19](/assets/Web/AWS/2020-04-07-SpringBoot-AWS-02-img19.png)](/assets/Web/AWS/2020-04-07-SpringBoot-AWS-02-img19.png)  
   
 HelloResponseDto 코드 작성
-/src/main/java/com/freehyun/book/springboot/web/dto/HelloResponseDto
+`src/main/java/com/freehyun/book/springboot/web/dto/HelloResponseDto`  
 ```java
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
@@ -209,11 +210,11 @@ public class HelloResponseDto {
 + 선언된 모든 final 필드가 포함된 생성자를 생성해 준다.  
 + final 이 없는 필드는 생성자에 포함되지 않는다.  
   
-dto 테스트 패키지와 클래스  
+`dto` 테스트 패키지와 클래스  
 [![그림 1-20](/assets/Web/AWS/2020-04-07-SpringBoot-AWS-02-img20.png)](/assets/Web/AWS/2020-04-07-SpringBoot-AWS-02-img20.png)  
   
 HelloResponseDtoTest 코드 작성  
-/src/test/java/com/freehyun/book/springboot/web/dto/HelloResponseDtoTest
+`src/test/java/com/freehyun/book/springboot/web/dto/HelloResponseDtoTest`  
 ```java
 import org.junit.Test;
 import static org.assertj.core.api.Assertions.assertThat;
@@ -258,7 +259,7 @@ dependencies {
 	testAnnotationProcessor 'org.projectlombok:lombok:1.18.12'
 }
 ```  
-build.gradle 의 dependencies를 수정하거나 `gradle/wrapper/gradle-wrapper.properties` 에서 distributionUrl의 값을 `https\://services.gradle.org/distributions/gradle-4.10.2-bin.zip` 와 같이 바꿔주고 gradle을 downgrade한다.  
+`build.gradle` 의 dependencies를 수정하거나 `gradle/wrapper/gradle-wrapper.properties` 에서 distributionUrl의 값을 `https\://services.gradle.org/distributions/gradle-4.10.2-bin.zip` 와 같이 바꿔주고 gradle을 downgrade한다.  
 [![그림 1-24](/assets/Web/AWS/2020-04-07-SpringBoot-AWS-02-img24.png)](/assets/Web/AWS/2020-04-07-SpringBoot-AWS-02-img24.png)  
   
 gradle 5부터는 어노테이션을 구별해서 추가해줘야 한다고 한다. 전자의 경우 계속해서 추가 대응이 필요하기 때문에 개인적으로는 처음 실습은 gradle 4로 권장한다.  
