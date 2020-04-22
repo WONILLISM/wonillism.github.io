@@ -28,7 +28,7 @@ last_modified_at: 2020-04-22
   
 
 ## 문제    
-[![](/assets/BOJ-samsung/2020-04-22-BOJ-Samsung-A-09-img01.png)](/assets/BOJ-samsung/2020-04-22-BOJ-Samsung-A-09-img01.png)  
+[![](/assets/BOJ-samsung/2020-04-22-BOJ-Samsung-A-09-img01.PNG)](/assets/BOJ-samsung/2020-04-22-BOJ-Samsung-A-09-img01.PNG)  
   
 
 ## 문제 풀이  
